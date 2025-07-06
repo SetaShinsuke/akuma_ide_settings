@@ -1,0 +1,23 @@
+{
+	"ignored_packages":
+	[
+		"Theme - Monokai Pro",
+		"Vintage",
+	],
+	"font_face": "微软雅黑",
+	"font_size": 13,
+	"theme": "Default Dark.sublime-theme",
+	"index_files": true,
+	"color_scheme": "Mariana.sublime-color-scheme",
+	"update_check": false,
+	// When enabled, pressing tab will insert the best matching completion.
+	// When disabled, tab will only trigger snippets or insert a tab.
+	// Shift+tab can be used to insert an explicit tab when tab_completion is
+	// enabled.
+	"tab_completion": false,
+	// 在何时出现自动补全的选择框↓
+	// source(.js/.python...)
+	"auto_complete_selector": "source, text",
+	// true: 只能用tab补全，enter换行
+	"auto_complete_commit_on_tab": true,
+}
