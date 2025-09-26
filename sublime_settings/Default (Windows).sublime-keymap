@@ -14,5 +14,5 @@
     { "keys": ["ctrl+d"], "command": "duplicate_line" },
     { "keys": ["alt+a"], "command": "prev_view"},
     { "keys": ["alt+f"], "command": "next_view"},
-    { "keys": ["ctrl+alt+p"], "command": "markdown_preview", "args": {"target": "browser", "parser":"markdown"} },
+    { "keys": ["ctrl+alt+p"], "command": "markdown_preview", "args": {"target": "browser", "parser":"github"} },
 ]

@@ -1,0 +1,11 @@
+[
+    {
+        "caption": "Extra tools",
+        "mnemonic": "E",
+        "id": "file",
+        "children":
+        [
+            { "command": "reg_replace", "args": {"replacements": ["md_ends"]}, "caption": "MD Ends", "mnemonic": "M" }
+        ]
+    }
+]

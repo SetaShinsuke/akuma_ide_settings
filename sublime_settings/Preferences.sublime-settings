@@ -1,12 +1,13 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
 {
 	"ignored_packages":
 	[
-		"Theme - Monokai Pro",
 		"Vintage",
 	],
 	"font_face": "微软雅黑",
 	"font_size": 13,
-	"theme": "Default Dark.sublime-theme",
+	//"theme": "Default Dark.sublime-theme",
 	"index_files": true,
 	"color_scheme": "Mariana.sublime-color-scheme",
 	"update_check": false,
@@ -20,4 +21,6 @@
 	"auto_complete_selector": "source, text",
 	// true: 只能用tab补全，enter换行
 	"auto_complete_commit_on_tab": true,
+	"theme": "Default Dark.sublime-theme",
+	"word_wrap": "true",
 }

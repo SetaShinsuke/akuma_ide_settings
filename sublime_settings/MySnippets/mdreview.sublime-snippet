@@ -1,0 +1,19 @@
+<snippet>
+        <content><![CDATA[
+# 《${1:【...作品名称...】}》
+## 总评
+
+---
+## 笔记
+- ${2:}
+
+---
+## 剧情
+
+        ]]></content>
+        <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+        <tabTrigger>mdreview</tabTrigger>
+        <!-- Optional: Set a scope to limit where the snippet will trigger -->
+        <scope>text.html.markdown</scope>
+        <description>Generate review template</description>
+</snippet>	

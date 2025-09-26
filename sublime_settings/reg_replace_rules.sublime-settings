@@ -1,0 +1,29 @@
+  /*
+    ###### Scope search with regular expression applied to scope region. ######
+    - scope (required)
+    - find
+    - replace
+    - literal
+    - literal_ignorecase
+    - greedy
+    - greedy_scope
+    - format_replace
+    - multi_pass
+    - selection_inputs
+    - plugin
+    - args
+    */
+
+// 注意这里用的是 python 中的正则，所以语法与 sublime替换命令 不同
+// 比如: \s 需要转义 \\s，使用 \1 而非 $1
+{
+    "replacements": {
+        "md_ends": {
+            "scope": "text.html.markdown",
+            "find" : "([^\\s]+)\n",
+            "replace": "\\1    \n",
+            "greedy": true,
+            "greedy_scope": true
+        }
+    }
+}
