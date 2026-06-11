@@ -3,7 +3,7 @@
 	"lastAppVersion": "3.68.0",
 	"captureFormat": "jpeg",
 	"keyframeCut": true,
-	"autoMerge": false,
+	"autoMerge": true,
 	"autoDeleteMergedSegments": true,
 	"segmentsToChaptersOnly": false,
 	"enableSmartCut": false,
@@ -32,7 +32,7 @@
 	"segmentsToChapters": false,
 	"simpleMode": true,
 	"outSegTemplate": "${FILENAME}-${CUT_FROM.replaceAll('.', '_')}-CLIP_${SEG_NUM_INT}${EXT}",
-	"mergedFilesTemplate": "260311_直播回放_空洞骑士_2026-03-11_20-07-31-00_00_14_000-CLIP_1-merged-1773339557338.mp4",
+	"mergedFilesTemplate": "260606_直播回放_蔚蓝_2026-06-06_19-50-29-cut-merged-1780997428032-merged-1781003174528.mp4",
 	"keyboardSeekAccFactor": 1.03,
 	"keyboardNormalSeekSpeed": 1,
 	"keyboardSeekSpeed2": 10,
@@ -41,11 +41,11 @@
 	"treatOutputFileModifiedTimeAsStart": true,
 	"safeOutputFileName": true,
 	"windowBounds": {
-		"x": 565,
-		"y": 125,
-		"width": 1183,
-		"height": 820,
-		"isMaximized": false
+		"x": 512,
+		"y": 187,
+		"width": 1239,
+		"height": 766,
+		"isMaximized": true
 	},
 	"enableAutoHtml5ify": true,
 	"keyBindings": [
@@ -288,6 +288,14 @@
 		{
 			"keys": "AltLeft+KeyD",
 			"action": "seekForwardsKeyframe"
+		},
+		{
+			"action": "increasePlaybackRateMore",
+			"keys": "NumpadAdd"
+		},
+		{
+			"action": "reducePlaybackRateMore",
+			"keys": "NumpadSubtract"
 		}
 	],
 	"storeProjectInWorkingDir": true,
