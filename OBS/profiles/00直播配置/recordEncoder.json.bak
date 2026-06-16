@@ -1,1 +1,1 @@
-{"rate_control":"VBR","bitrate":8000,"keyint_sec":2,"multipass":"disabled","tune":"ll"}
+{"rate_control":"VBR","bitrate":4500,"keyint_sec":2,"multipass":"disabled","tune":"ll"}

@@ -1,1 +1,1 @@
-{"rate_control":"VBR","bitrate":2500,"max_bitrate":10000,"tune":"ll","profile":"high","preset":"p5","multipass":"disabled","target_quality":19,"keyint_sec":2}
+{"rate_control":"VBR","bitrate":2300,"max_bitrate":10000,"tune":"ll","profile":"high","preset":"p5","multipass":"disabled","target_quality":19,"keyint_sec":2}

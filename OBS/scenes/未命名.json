@@ -12,7 +12,7 @@
         "mixers": 195,
         "sync": 0,
         "flags": 0,
-        "volume": 0.11954411119222641,
+        "volume": 0.10122565925121307,
         "balance": 0.5,
         "enabled": true,
         "muted": false,
@@ -99,7 +99,7 @@
                 "id": "gain_filter",
                 "versioned_id": "gain_filter",
                 "settings": {
-                    "db": 13.0
+                    "db": 15.0
                 },
                 "mixers": 255,
                 "sync": 0,
@@ -357,7 +357,7 @@
             "id": "game_capture",
             "versioned_id": "game_capture",
             "settings": {
-                "window": "Celeste:SDL_app:Celeste.exe",
+                "window": "BATMAN#3A ARKHAM ASYLUM:LaunchUnrealUWindowsClient:ShippingPC-BmGame.exe",
                 "capture_mode": "window",
                 "priority": 0,
                 "allow_transparency": false
@@ -554,7 +554,7 @@
             "id": "window_capture",
             "versioned_id": "window_capture",
             "settings": {
-                "window": "Celeste:SDL_app:Celeste.exe",
+                "window": "BATMAN#3A ARKHAM ASYLUM:LaunchUnrealUWindowsClient:ShippingPC-BmGame.exe",
                 "method": 2
             },
             "mixers": 255,
@@ -647,7 +647,7 @@
                     {
                         "name": "Chrome浏览器",
                         "source_uuid": "b527cd9e-a930-438e-928f-cdaa7962af99",
-                        "visible": true,
+                        "visible": false,
                         "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
@@ -758,7 +758,7 @@
                         "name": "游戏窗口",
                         "source_uuid": "e22cb3cc-2184-475f-8e06-b2b539a0c25b",
                         "visible": true,
-                        "locked": true,
+                        "locked": false,
                         "rot": 0.0,
                         "scale_ref": {
                             "x": 1920.0,
