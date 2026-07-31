@@ -24,15 +24,15 @@
 	"preserveMetadata": "default",
 	"preserveMetadataOnMerge": false,
 	"preserveMovData": false,
-	"movFastStart": true,
+	"movFastStart": false,
 	"avoidNegativeTs": "make_zero",
 	"hideNotifications": "all",
 	"hideOsNotifications": "all",
 	"autoLoadTimecode": false,
 	"segmentsToChapters": false,
-	"simpleMode": true,
+	"simpleMode": false,
 	"outSegTemplate": "${FILENAME}-${CUT_FROM.replaceAll('.', '_')}-CLIP_${SEG_NUM_INT}${EXT}",
-	"mergedFilesTemplate": "260606_直播回放_蔚蓝_2026-06-06_19-50-29-cut-merged-1780997428032-merged-1781003174528.mp4",
+	"mergedFilesTemplate": "${FILENAME}-merged-${EPOCH_MS}${EXT}",
 	"keyboardSeekAccFactor": 1.03,
 	"keyboardNormalSeekSpeed": 1,
 	"keyboardSeekSpeed2": 10,
@@ -41,8 +41,8 @@
 	"treatOutputFileModifiedTimeAsStart": true,
 	"safeOutputFileName": true,
 	"windowBounds": {
-		"x": 512,
-		"y": 187,
+		"x": 356,
+		"y": 103,
 		"width": 1239,
 		"height": 766,
 		"isMaximized": true
@@ -296,10 +296,22 @@
 		{
 			"action": "reducePlaybackRateMore",
 			"keys": "NumpadSubtract"
+		},
+		{
+			"action": "seekPreviousFrame",
+			"keys": "BracketLeft"
+		},
+		{
+			"action": "seekNextFrame",
+			"keys": "BracketRight"
+		},
+		{
+			"action": "togglePlayNoResetSpeed",
+			"keys": "Numpad0"
 		}
 	],
 	"storeProjectInWorkingDir": true,
-	"enableOverwriteOutput": true,
+	"enableOverwriteOutput": false,
 	"mouseWheelZoomModifierKey": "ctrl",
 	"mouseWheelFrameSeekModifierKey": "alt",
 	"mouseWheelKeyframeSeekModifierKey": "shift",
